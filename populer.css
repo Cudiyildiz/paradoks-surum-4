@@ -129,37 +129,33 @@ nav .header-menu {
   border-bottom-right-radius: 18px;
   border-top-right-radius: 18px;
 }
-#raka {
+#galata {
   position: relative;
-  bottom: 105px;
+  bottom: 44px;
 }
-#penin {
+#kız {
   position: relative;
-  bottom: 106px;
+  bottom: 65px;
 }
-#sapiens {
+#yedikule {
   position: relative;
-  bottom: 86px;
+  bottom: 46px;
 }
-#gala {
+#dolma {
   position: relative;
   bottom: 45px;
 }
-#istiklal {
+#atatürk {
   position: relative;
-  bottom: 97px;
+  bottom: 15px;
 }
-#taksim {
+#süleyman {
   position: relative;
-  bottom: 90px;
+  bottom: 25px;
 }
-#miniturk {
+#fener {
   position: relative;
-  bottom: 96px;
-}
-#pera {
-  position: relative;
-  bottom: 87px;
+  bottom: 45px;
 }
 /*article end*/
 .logo img {

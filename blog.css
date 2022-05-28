@@ -90,84 +90,38 @@ nav .header-menu {
   padding-bottom: 0.5rem;
   color: var(--black-color);
 }
-/*header end*/
-/*article start*/
 
-.col1 {
-  display: flex;
-  border: 0.5px solid beige;
-  align-items: center;
-  margin: 20px;
-  border-radius: 18px;
-  background-color: #c7f1effd;
-  box-shadow: 0px 0px 17px -2px rgb(0, 0, 0, 0.75);
-}
-.başlık h3 {
-  color: #706e66;
-  font-size: 26px;
-  position: relative;
-  right: -15px;
-  top: 12px;
-}
-.paragraf-1 p {
-  color: #706e66;
-
-  position: relative;
-  left: 8px;
-  bottom: 75px;
-  font-size: 18px;
-}
-.col1 .resim img {
-  position: relative;
-  top: 1px;
-  bottom: 1px solid beige;
-  border-bottom-left-radius: 18px;
-  border-top-left-radius: 18px;
-}
-.Harita-1 iframe {
-  bottom: 1px solid rgb(3, 3, 3);
-  border-bottom-right-radius: 18px;
-  border-top-right-radius: 18px;
-}
-#raka {
-  position: relative;
-  bottom: 105px;
-}
-#penin {
-  position: relative;
-  bottom: 106px;
-}
-#sapiens {
-  position: relative;
-  bottom: 86px;
-}
-#gala {
-  position: relative;
-  bottom: 45px;
-}
-#istiklal {
-  position: relative;
-  bottom: 97px;
-}
-#taksim {
-  position: relative;
-  bottom: 90px;
-}
-#miniturk {
-  position: relative;
-  bottom: 96px;
-}
-#pera {
-  position: relative;
-  bottom: 87px;
-}
-/*article end*/
 .logo img {
   border: 2px solid rgb(97, 222, 247);
   width: 95px;
   height: 95px;
   border-radius: 999rem;
   box-shadow: 0px 0px 17px -2px rgb(0, 0, 0, 0.75);
+}
+h2 {
+  color: #706e66;
+  column-gap: 2px;
+  text-align: center;
+  position: relative;
+  top: 6px;
+}
+p {
+  color: #706e66;
+  position: relative;
+  font-size: 18px;
+  top: 30px;
+  text-align: unset;
+}
+.Gelistiriciler {
+  display: flex;
+  column-gap: 16px;
+  position: relative;
+  top: 85px;
+  left: 820px;
+}
+.Gelistiriciler h4 {
+  color: #706e66;
+  letter-spacing: 1px;
 }
 /*footer start*/
 
@@ -176,7 +130,7 @@ nav .header-menu {
   text-align: center;
   height: 153px;
   position: relative;
-  top: 40px;
+  top: 284px;
 }
 .footer .share {
   padding: 1rem 0;
