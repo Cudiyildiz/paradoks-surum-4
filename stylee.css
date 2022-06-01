@@ -11,6 +11,7 @@ html {
   scroll-behavior: smooth;
 }
 * {
+  /*bu kod tüm sayfaya etki ediyor*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -35,6 +36,7 @@ a {
 
 /*Header start*/
 .logo img {
+  /*logo tasarımı yaptık*/
   border: 2px solid rgb(97, 222, 247);
   width: 90px;
   height: 90px;
@@ -42,6 +44,7 @@ a {
   box-shadow: 0px 0px 17px -2px rgb(0, 0, 0, 0.75);
 }
 header {
+  /*menü kısmı tasarlandı*/
   height: 100px;
   border-bottom: 2px solid #d5f0eafd;
   padding: 0 7%;
@@ -93,6 +96,7 @@ nav .header-menu {
 
 /*article start*/
 .icerik {
+  /*slaytın pozisyonu ayarlandı*/
   position: relative;
   top: 30px;
   left: 85px;
@@ -101,6 +105,7 @@ nav .header-menu {
 }
 
 .article-list {
+  /*Yan sitelere açılan linkli logoların tasarımı yapıldı*/
   display: flex;
   column-gap: 35px;
   list-style: none;
@@ -118,10 +123,25 @@ article .article-list a {
   color: white;
 }
 li img {
+  /*ilçelere yönlendiren logolar tasarlandı*/
   border: 2px solid rgb(97, 222, 247);
   width: 90px;
   height: 90px;
   border-radius: 999rem;
+  box-shadow: 0px 0px 17px -2px rgb(0, 0, 0, 0.75);
+}
+.card-link img {
+  border: 1px solid white;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  box-shadow: 0px 0px 17px -2px rgb(0, 0, 0, 0.75);
+}
+.card-body {
+  border: 1px solid white;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  position: relative;
+  bottom: 2px;
   box-shadow: 0px 0px 17px -2px rgb(0, 0, 0, 0.75);
 }
 /*article end*/
@@ -138,6 +158,8 @@ li img {
   padding: 1rem 0;
 }
 .footer .share a {
+  /*sitenin alt kısmında bulanan iletişim bilgilerine
+  ait menü tasarlandi*/
   width: 2rem;
   height: 2rem;
   line-height: 2rem;
@@ -187,17 +209,3 @@ li img {
 }
 
 /*footer end*/
-.card-link img {
-  border: 1px solid white;
-  border-top-left-radius: 18px;
-  border-top-right-radius: 18px;
-  box-shadow: 0px 0px 17px -2px rgb(0, 0, 0, 0.75);
-}
-.card-body {
-  border: 1px solid white;
-  border-bottom-left-radius: 18px;
-  border-bottom-right-radius: 18px;
-  position: relative;
-  bottom: 2px;
-  box-shadow: 0px 0px 17px -2px rgb(0, 0, 0, 0.75);
-}
